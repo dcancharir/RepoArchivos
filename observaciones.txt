@@ -1,0 +1,14 @@
+orden de referencia en el layout
+
+en el header el manifiesto
+
+<link rel="manifest" href="~/manifest.json" />
+
+-----------referencias js-------------------------
+firebase-app.js
+firebase-messaging.js
+script-firebase.js
+
+
+el manifesto deberia de ubicarse fisicamente en la raiz del proyecto al igual que el archivo firebase-messaging-sw.js 
+los otros js en la ubicacion de preferencia del proyecto

@@ -1,0 +1,25 @@
+{
+  "name": "nombre de app",
+  "short_name": "nombre corto",
+
+  "icons": [
+    {
+      "src": "/content/assets/images/logo32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/content/assets/images/logo-white-small.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "prefer_related_applications": false,
+  "start_url": "/",
+  "scope": "/",
+  "display": "fullscreen",
+  "background_color": "#293551",
+  "theme_color": "#293551",
+  "description": "descripcion de app",
+  "gcm_sender_id": "id de firebase"
+}

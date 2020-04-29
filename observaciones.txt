@@ -12,3 +12,29 @@ script-firebase.js
 
 el manifesto deberia de ubicarse fisicamente en la raiz del proyecto al igual que el archivo firebase-messaging-sw.js 
 los otros js en la ubicacion de preferencia del proyecto
+
+
+
+
+     *******   referencias en el header *******
+al inicio del header------------------------------
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#293551">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+al final del header--------------------
+	<link rel="manifest" href="~/Content/assets/addhome/manifest.json" />
+	<script src="~/Content/assets/firebase-app.js"></script>
+	<script src="~/Content/assets/firebase-messaging.js"></script>
+	<script src="~/Content/assets/script-firebase.js"></script> --- el script donde esta el codigo del registro
+
+------------------------------------------------------
+*********  archivos en el subdominio ******
+
+	firebase-app.js
+	firebase-messaging.js
+	script-firebase.js
+	manifest.json
+	firebase-messaging-sw.js

@@ -27,7 +27,7 @@ messaging.setBackgroundMessageHandler(function (payload) {
         notificationOptions);
 });
 
-var CACHE_NAME = 'asistencia-index';
+var CACHE_NAME = 'apuesta-index';
 var urlsToCache = [
 
     '/Content/assets/css/vendor.styles.css',
@@ -89,7 +89,7 @@ self.addEventListener('fetch', function (event) {
 
 self.addEventListener('activate', function (event) {
 
-    var cacheWhitelist = ['asistencia-index', 'blog-posts-cache-v1'];
+    var cacheWhitelist = ['apuesta-index', 'blog-posts-cache-v1'];
 
     event.waitUntil(
         caches.keys().then(function (cacheNames) {
